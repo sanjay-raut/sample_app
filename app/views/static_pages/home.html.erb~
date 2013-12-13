@@ -1,1 +1,10 @@
-<h1>This is Home Page</h1>
+<% provide(:title , 'Home') %>
+<html>
+<head>
+<title><%= yield(:title) %></title>
+</head>
+<body>
+   <%= @home %>
+</body>
+</html>
+

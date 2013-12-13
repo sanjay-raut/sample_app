@@ -1,1 +1,10 @@
-<h1>This is Help Page</h1>
+<% provide(:title, 'Help')%>
+<html>
+<head>
+<title>Ruby on rails tutorial sample app | Help</title>
+</head>
+<body>
+   <%= @help %>
+</body>
+</html>
+
